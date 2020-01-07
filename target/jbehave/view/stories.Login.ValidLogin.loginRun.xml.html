@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>stories.Login.ValidLogin.loginRun</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+ 
+<script type="syntaxhighlighter" class="brush: xml"><![CDATA[
+<story path="stories/Login/ValidLogin/loginRun.story" title="">
+<scenario keyword="Scenario:" title="To verify if the user is able to login to the page">
+<examples keyword="Examples:">
+<step>Given the user opens the url of the application</step>
+<step>When the user enters &lt;userid&gt; and &lt;password&gt;</step>
+<step>Then the user should go to the home page</step>
+<parameters>
+<names><name>userid</name><name>password</name></names>
+<values><value>yuvi.subu@yopmail.com</value><value>Welcome@123</value></values>
+</parameters>
+
+<example keyword="Example:">{userid=yuvi.subu@yopmail.com, password=Welcome@123}</example>
+<step outcome="successful">Given the user opens the url of the application</step>
+<step outcome="successful">When the user enters <parameter>yuvi.subu@yopmail.com</parameter> and <parameter>Welcome@123</parameter></step>
+<step outcome="successful">Then the user should go to the home page</step>
+</examples>
+</scenario>
+</story>
+
+]]></script>
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

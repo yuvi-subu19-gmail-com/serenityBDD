@@ -1,0 +1,18 @@
+<story path="stories/Login/ValidLogin/loginRun.story" title="">
+<scenario keyword="Scenario:" title="To verify if the user is able to login to the page">
+<examples keyword="Examples:">
+<step>Given the user opens the url of the application</step>
+<step>When the user enters &lt;userid&gt; and &lt;password&gt;</step>
+<step>Then the user should go to the home page</step>
+<parameters>
+<names><name>userid</name><name>password</name></names>
+<values><value>yuvi.subu@yopmail.com</value><value>Welcome@123</value></values>
+</parameters>
+
+<example keyword="Example:">{userid=yuvi.subu@yopmail.com, password=Welcome@123}</example>
+<step outcome="successful">Given the user opens the url of the application</step>
+<step outcome="successful">When the user enters <parameter>yuvi.subu@yopmail.com</parameter> and <parameter>Welcome@123</parameter></step>
+<step outcome="successful">Then the user should go to the home page</step>
+</examples>
+</scenario>
+</story>

@@ -1,0 +1,11 @@
+MyBDD\pages\LoginPage.class
+MyBDD\UpdateDefinitionRun.class
+MyBDD\steps\serenity\LoginRunTests.class
+MyBDD\pages\DictionaryPage.class
+MyBDD\steps\LookupADefinitionSteps.class
+MyBDD\steps\UpdateDefinitionSteps.class
+MyBDD\LookupADefinitionRun.class
+MyBDD\LoginRun.class
+MyBDD\steps\LoginRunSteps.class
+MyBDD\AllTests.class
+MyBDD\steps\serenity\LookupADefinitionTests.class
